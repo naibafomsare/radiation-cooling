@@ -1,4 +1,4 @@
-# Radiation-cooling
+# Radiative cooling
 
 The aim of the project is to design a system for extracting heat taking advantage of the thermal radiation that naturally and continously radiates from a fused silica mirror that is part of an interferometric gravitational wave detector that works at room temperature.
 
