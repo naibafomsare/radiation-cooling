@@ -2,6 +2,8 @@
 
 The aim of the project is to design a system for extracting heat taking advantage of the thermal radiation that naturally and continously radiates from a fused silica mirror that is part of an interferometric gravitational wave detector that works at room temperature.
 
+<img src="figures/radiative_cooling.png" alt="drawing" width="400"/>
+
 The project has a theoretical part and an experimental one. Roughly, the general procedure for the theoretical part is the following:
 
 1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction). The aim of the system is to be able to extract the exact amount of heat in an optimized way according to the 
