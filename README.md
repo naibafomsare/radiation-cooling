@@ -1,12 +1,16 @@
 # Radiative cooling
 
-The aim of the project is to design a system for extracting heat taking advantage of the thermal radiation that naturally and continously radiates from a fused silica mirror that is part of an interferometric gravitational wave detector that works at room temperature.
+The aim of the project is to design a system for extracting heat from a fused silica mirror taking advantage of the thermal radiation that it naturally and continously generates. (Say something about the context of the experiment.)
+
+The aim is to extract exactly the same amount of heat that is generated when a fraction of the laser power dissipates when passing through the mirror substrate and coating. The challenge is 
+
+1. In figure (a) an image of the surface of the mirror within the 
 
 <img src="figures/radiative_cooling.png" alt="drawing" width="400"/>
 
 The project has a theoretical part and an experimental one. Roughly, the general procedure for the theoretical part is the following:
 
-1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction). The aim of the system is to be able to extract the exact amount of heat in an optimized way according to the 
+1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction). T
      
 3. ~~Then, it should be possible to calculate the deformation and the temperature map of the mirror. For example, see [this technical note](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw47mF6t2CAxWWLUQIHc9PBQUQFnoECBQQAQ&url=https%3A%2F%2Fopensky.ucar.edu%2Fislandora%2Fobject%2Freports%253A7%2Fdatastream%2FPDF%2Fdownload%2Fcitation.pdf&usg=AOvVaw2-d9chybtS9aTcPbrS1V10&opi=89978449).~~
 
