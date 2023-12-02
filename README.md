@@ -2,13 +2,19 @@
 
 The aim of the project is to design a system for extracting heat from a fused silica mirror taking advantage of the thermal radiation that it naturally and continously generates. (Say something about the context of the experiment.)
 
-The aim is to extract exactly the same amount of heat that is generated as the laser passes through the mirror dissipating some of its power. The laser is a Guassian beam propagating on axis, therefore, more heat is produced in the central region of the mirror than in the surronding areas. *The challenge then becomes extracting different amounts of heat from different areas of the mirror surface in accordance to the Guassian shape of the beam.* 
+The aim is to extract exactly the same amount of heat that is generated as the laser passes through the mirror dissipating some of its power. The laser is a Guassian beam propagating on-axis, therefore, more heat is produced in the central region of the mirror than in the surronding areas. *The challenge then becomes extracting different amounts of heat from different areas of the mirror surface in accordance to the Guassian shape of the beam.* 
 
-Because thermal radiation is electromagnetic radiation, the problem and its solution can be formulated in terms of an imaging system. 
+Because thermal radiation is electromagnetic radiation, the problem and its solution can be formulated in terms of an imaging system. The following figure shows the mirror, the laser beam going through, two off-axis gold plated folding mirrors and two cold traps. The position of the folding mirrors are such that they produce an image of the *mirror* on the aperture of the cold trap.
 
-1. In figure (a) an image of the surface of the mirror within the 
+
+<img src="figures/radiative_cooling_overview.png" alt="drawing" width="800"/>
+     
+
+Let's consider a point $P$ on the mirror surface upon which the outskirt of the Guassian beam passes through. The following figure shows the image $P^{\prime}$ that is created of point $P$ on the aperture of the cold trap. As suggested in the figure, all the rays converging at $P^{\prime}$ will enter the trap and none of them will go back to the sourrounding environment. In this configuration, more heat than necessary will enter the trap because the radiation from the different areas, within the region imaged onto the aperture, will enter the trap equally and not according to a Gaussian distribution.
 
 <img src="figures/radiative_cooling.png" alt="drawing" width="400"/>
+
+In order to decrease the amount of radiation enterig the trap, its aperture can be moved back from the plane of the image, as shown in figure (b). Some of the rays converging at point $B$ will not enter the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces   
 
 The project has a theoretical part and an experimental one. Roughly, the general procedure for the theoretical part is the following:
 
