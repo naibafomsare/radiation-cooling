@@ -16,11 +16,11 @@ Let's consider point $A$ on the mirror surface upon which the outskirt of the Gu
 
 In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in figure (b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
 
-In term of images, the image of the mirror created at the new position of the aperture is affected by defocus. Consversely, the image of the cold trap aperture, created on the mirror surface, is a circle out of focus mimicking a Guassian beam intensity profile.
+In term of images, the image of the mirror created at the new position of the aperture is affected by defocus. Conversely, the image of the cold trap aperture, created at the mirror surface, is a circle out of focus mimicking a Guassian beam intensity profile.
 
 The project has a theoretical part and an experimental one. Roughly, the general procedure for the theoretical part is the following:
 
-1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction). T
+1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction).
      
 3. ~~Then, it should be possible to calculate the deformation and the temperature map of the mirror. For example, see [this technical note](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw47mF6t2CAxWWLUQIHc9PBQUQFnoECBQQAQ&url=https%3A%2F%2Fopensky.ucar.edu%2Fislandora%2Fobject%2Freports%253A7%2Fdatastream%2FPDF%2Fdownload%2Fcitation.pdf&usg=AOvVaw2-d9chybtS9aTcPbrS1V10&opi=89978449).~~
 
