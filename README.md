@@ -2,7 +2,9 @@
 
 The aim of the project is to design a system for extracting heat from a fused silica mirror taking advantage of the thermal radiation that it naturally and continously generates. (Say something about the context of the experiment.)
 
-The aim is to extract exactly the same amount of heat that is generated when a fraction of the laser power dissipates when passing through the mirror substrate and coating. The challenge is 
+The aim is to extract exactly the same amount of heat that is generated as the laser passes through the mirror dissipating some of its power. The laser is a Guassian beam propagating on axis, therefore, more heat is produced in the central region of the mirror than in the surronding areas. *The challenge then becomes extracting different amounts of heat from different areas of the mirror surface in accordance to the Guassian shape of the beam.* 
+
+Because thermal radiation is electromagnetic radiation, the problem and its solution can be formulated in terms of an imaging system. 
 
 1. In figure (a) an image of the surface of the mirror within the 
 
