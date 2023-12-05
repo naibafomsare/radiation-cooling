@@ -42,7 +42,7 @@ The optimum parameters of the system can be calculated with Zemax using standard
 3. At the plane of the image set the mask.
 4. *Using the spatial and directional properties of the thermal radiation*, define an error function that becomes zero when the correct amount of heat passes through the mask.
 5. Calculate the new position of the mask by minimizing the error function.
-6. Check that the error function value is close enough to zero, condition that implies that the heat extracted is close enough to the optimum. In case is is not, modify the shape of the mask and minimize the error function again.
+6. Check that the error function value is close enough to zero, condition that implies that the heat extracted is close enough to the optimum. In case it is not, modify the shape of the mask and repeat the previous step.
 7. Determine which effect is dominant over the amount of heat extracted and over the quality of the image, the defocus or the aberrations introduced by the folding mirror. In case the defocus is far dominant, it might be worth relaxing the requirements imposed on the aberrations in case the selected folding mirror is not easy to acquire.
 
 <!--
