@@ -4,7 +4,7 @@ The aim of the project is to design a system for extracting heat from a fused si
 
 The aim is to extract exactly the same amount of heat that is generated as the laser passes through the mirror dissipating some of its power. The laser is a Guassian beam propagating on-axis, therefore, more heat is produced in the central region of the mirror than in the surronding areas. *The challenge then becomes extracting different amounts of heat from different areas of the mirror surface in accordance to the Guassian intensity profile of the beam.* 
 
-Because thermal radiation is electromagnetic, the problem can be formulated in terms of ray tracing in an imaging system. Figure 1 shows the mirror, the laser beam going through, two off-axis gold plated folding mirrors and two cold traps. The position of the folding mirrors are such that they produce  images of the *mirror* at the apertures of the cold traps.
+Because thermal radiation is electromagnetic, the problem can be formulated in terms of ray tracing in an imaging system. Figure 1 shows the main mirror, the laser beam going through, two off-axis gold plated folding mirrors and two cold traps. The position of the folding mirrors are such that they produce  images of the *mirror* at the apertures of the cold traps.
 
 
 <!-- <img src="figures/radiative_cooling_overview.png" alt="drawing" width="800"/> -->
@@ -15,9 +15,11 @@ Because thermal radiation is electromagnetic, the problem can be formulated in t
   Figure 1. Overview of the system.
 </p>
 
+These apertures are covered with masks like the one shown in Fig. 2, where the white sections are holes through which the light propagates. Their function is to allow more light from the centre of the mirror to reach the cold trap and less light from the areas away from it. 
+
 <p align="center">
   <img src="figures/radiative_cooling_mask.png"><br>
-  Figure 2. Mask.
+  Figure 2. Mask covering the aperture of the cold trap.
 </p>
 
 
