@@ -4,15 +4,25 @@ The aim of the project is to design a system for extracting heat from a fused si
 
 The aim is to extract exactly the same amount of heat that is generated as the laser passes through the mirror dissipating some of its power. The laser is a Guassian beam propagating on-axis, therefore, more heat is produced in the central region of the mirror than in the surronding areas. *The challenge then becomes extracting different amounts of heat from different areas of the mirror surface in accordance to the Guassian intensity profile of the beam.* 
 
-Because thermal radiation is electromagnetic, the problem can be formulated in terms of an imaging system. The following figure shows the mirror, the laser beam going through, two off-axis gold plated folding mirrors and two cold traps. The position of the folding mirrors are such that they produce  images of the *mirror* at the apertures of the cold traps.
+Because thermal radiation is electromagnetic, the problem can be formulated in terms of ray tracing in an imaging system. The following figure shows the mirror, the laser beam going through, two off-axis gold plated folding mirrors and two cold traps. The position of the folding mirrors are such that they produce  images of the *mirror* at the apertures of the cold traps.
 
 
-<img src="figures/radiative_cooling_overview.png" alt="drawing" width="800"/>
-     
+<!-- <img src="figures/radiative_cooling_overview.png" alt="drawing" width="800"/> -->
+
+
+<p align="center">
+  <img src="figures/radiative_cooling_overview.png">
+  Figure 1. Overview of the system.
+</p>
+
 
 Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. The following figure shows its image $B$ created very close to the edge of the aperture of the cold trap. All the rays converging at $B$ enter the trap. In this configuration, more heat than necessary enters the trap because the radiation from the different areas, within the region of the mirror imaged onto the aperture, enter the trap equally and not according to a Gaussian distribution.
 
-<img src="figures/radiative_cooling.png" alt="drawing" width="400"/>
+
+<p align="center">
+     <img src="figures/radiative_cooling.png">
+     Figure 2.
+</p>
 
 In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in figure (b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
 
