@@ -12,7 +12,7 @@ Because thermal radiation is electromagnetic, the problem can be formulated in t
 
 Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. The following figure shows its image $B$ created very close to the edge of the aperture of the cold trap. All the rays converging at $B$ enter the trap. In this configuration, more heat than necessary enters the trap because the radiation from the different areas, within the region of the mirror imaged onto the aperture, enter the trap equally and not according to a Gaussian distribution.
 
-<img src="figures/radiative_cooling.png" alt="drawing" width="400"/>
+<img src="figures/radiative_cooling2.png" alt="drawing" width="400"/>
 
 In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in figure (b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
 
