@@ -15,16 +15,21 @@ Because thermal radiation is electromagnetic, the problem can be formulated in t
   Figure 1. Overview of the system.
 </p>
 
+<p align="center">
+  <img src="figures/radiative_cooling_mask.png"><br>
+  Figure 2. Mask.
+</p>
 
-Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. Figure 2(a) shows its image $B$ created very close to the edge of the aperture of the cold trap. All the rays converging at $B$ enter the trap. In this configuration, more heat than necessary enters the trap because the radiation from the different areas, within the region of the mirror imaged onto the aperture, enter the trap equally and not according to a Gaussian distribution.
+
+Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. Figure 3(a) shows its image $B$ created very close to the edge of the aperture of the cold trap. All the rays converging at $B$ enter the trap. In this configuration, more heat than necessary enters the trap because the radiation from the different areas, within the region of the mirror imaged onto the aperture, enter the trap equally and not according to a Gaussian distribution.
 
 
 <p align="center">
      <img src="figures/radiative_cooling.png"><br>
-     Figure 2.
+     Figure 3.
 </p>
 
-In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in Fig. 2(b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
+In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in Fig. 3(b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
 
 In term of images, the image of the mirror created at the new position of the aperture is out of focus. Conversely, the image of the cold trap aperture, created at the mirror surface, is a circle out of focus mimicking a Guassian beam intensity profile.
 
