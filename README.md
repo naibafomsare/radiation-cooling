@@ -15,15 +15,15 @@ Because thermal radiation is electromagnetic, the problem can be formulated in t
   Figure 1. Overview of the system.
 </p>
 
-These apertures are covered with masks like the one shown in Fig. 2, where the white sections are holes through which the light propagates. Their function is to allow more light from the centre of the mirror to reach the cold trap and less light from the areas away from it. 
+These apertures are covered with masks like the one shown in Fig. 2, where the white sections are holes through which the light propagates. Their function is to allow more light from the central regions of the mirror to reach the cold trap and less light from the areas away from it. 
 
 <p align="center">
-  <img src="figures/radiative_cooling_mask.png"><br>
+  <img src="figures/mask.png" width="600"><br>
   Figure 2. Mask covering the aperture of the cold trap.
 </p>
 
 
-Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. Figure 3(a) shows its image $B$ created very close to the edge of the aperture of the cold trap. All the rays converging at $B$ enter the trap. In this configuration, more heat than necessary enters the trap because the radiation from the different areas, within the region of the mirror imaged onto the aperture, enter the trap equally and not according to a Gaussian distribution.
+Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. Figure 2 shows at the uppermost slit of the mask its image $B$ created at the aperture of the trap. Figure 3(a) shows a cross section of such a vicinity. All the rays converging at $B$ enter the trap, whereas the rays converging at neighboring points $C$ and $D$ do not. In this configuration, only heat from the areas imaged at the holes can enter the trap, leaving behind the heat from other areas.
 
 
 <p align="center">
@@ -31,18 +31,19 @@ Let's consider point $A$ on the mirror surface upon which the outskirt of the Gu
      Figure 3.
 </p>
 
-In order to decrease the amount of radiation enterig the trap, the aperture can be moved back from the plane of the image as shown in Fig. 3(b), thus keeping some of the rays converging at $B$ from entering the cavity. The farther away the point is from the centre of the image, the more of its rays will miss the aperture. This produces a radial distribution of heat extraction, that does not exacty match a Guassian distribution but closely mimics it.
+In order to allow rays from other areas to enter, the aperture can be moved back from the plane of the image as shown in Fig. 3(b). At this new position, some of the rays converging at $C$ and $D$ can pass through. By adjusting the position of the aperture and the shape of the mask, it is possible to extract heat according to a Gaussian profile.  
 
-In term of images, the image of the mirror created at the new position of the aperture is out of focus. Conversely, the image of the cold trap aperture, created at the mirror surface, is a circle out of focus mimicking a Guassian beam intensity profile.
+In term of images, the image of the main mirror created at the new position of the aperture is out of focus. Conversely, the image of the mask, created at the main mirror surface, is out of focus closely matching a Guassian beam intensity profile.
 
-The position of the cold trap can be calculated with Zemax using standard techniques of image quality optimization once the spatial and directional properties of the thermal radiation at the surface of the fused silica mirror are known. A procedure would be as follows:
+The optimum parameters of the system can be calculated with Zemax using standard techniques of image quality optimization once the spatial and directional properties of the thermal radiation at the surface of the fused silica mirror are known. The parameters to be determined are the precise shape of the mask and the amount of defocus required. A procedure would be as follows:
 
 1. Given the positions of the main mirror and the folding mirror, calculate the position of the image that the folding mirror creates of the main mirror.
 2. Optimize the shape of the folding mirror in order to minimize the effect of aberrations. It is recommended to use optical components from stock.
-3. Using the spatial and directional properties of the thermal radiation, define an error function that becomes zero when the correct amount of heat reaches the aperture of the cold trap.
-4. Calculate the new position of the cold trap aperture by minimizing the error function.
-5. Check that the error function value is close enough to zero, condition that implies that the heat extracted is close enough to the optimum.
-6. Determine which effect is dominant over the amount of heat extracted and over the quality of the image, the defocus or the aberrations introduced by the folding mirror. In case the defocus is far dominant, it might be worth relaxing the requirements imposed on the aberrations in case the selected folding mirror is not easy to acquire.
+3. At the plane of the image set the mask.
+4. *Using the spatial and directional properties of the thermal radiation*, define an error function that becomes zero when the correct amount of heat passes through the mask.
+5. Calculate the new position of the mask by minimizing the error function.
+6. Check that the error function value is close enough to zero, condition that implies that the heat extracted is close enough to the optimum. In case is is not, modify the shape of the mask and minimize the error function again.
+7. Determine which effect is dominant over the amount of heat extracted and over the quality of the image, the defocus or the aberrations introduced by the folding mirror. In case the defocus is far dominant, it might be worth relaxing the requirements imposed on the aberrations in case the selected folding mirror is not easy to acquire.
 
 There is more yet to be written.
 
@@ -59,7 +60,7 @@ With respect to the shape and material of the folding mirrors and the sinks:
 - The sinks could be cavities, coated in the inside with [Fractal Black](https://acktar.com/product/fractal-black/) (or the like), with an aperture big enough to allow the thermal radiation to enter. They must be connected to a conductive cooling system to regulate their temperature. 
 
 
-Because radiation cooling is a well-known technique that does not require a proof-of-concept experiment, the experimental part of the project must prove it's possible to extract enough heat from a mirror *under similar circumstances than those found in a gravitational wave detector*. For example, the folding mirror and sink have to be outside of the clear aperture diameter of the main mirror, and must have certain shape and relative size with respect to it for ease of installation. Using optical components from stock, the aim would be to show that is it possible to build a cooling system with a view factor equal to the one that would be theoretically calculated for the real situation.
+
 
 -->
 
