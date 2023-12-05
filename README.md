@@ -45,8 +45,6 @@ The optimum parameters of the system can be calculated with Zemax using standard
 6. Check that the error function value is close enough to zero, condition that implies that the heat extracted is close enough to the optimum. In case is is not, modify the shape of the mask and minimize the error function again.
 7. Determine which effect is dominant over the amount of heat extracted and over the quality of the image, the defocus or the aberrations introduced by the folding mirror. In case the defocus is far dominant, it might be worth relaxing the requirements imposed on the aberrations in case the selected folding mirror is not easy to acquire.
 
-There is more yet to be written.
-
 <!--
 
 1. Given the properties of fused silica, the shape of the mirror, and the shape and power of the incoming beam, calculate the total amount of heat dissipated and the thermal radiant intensity (radiant flux per solid angle as a function of direction).
