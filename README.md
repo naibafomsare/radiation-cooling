@@ -23,7 +23,7 @@ These apertures are covered with masks like the one shown in Fig. 2, where the w
 </p>
 
 
-Let's consider point $A$ on the mirror surface upon which the outskirt of the Guassian beam passes through. Figure 2 shows at the uppermost slit of the mask its image $B$ created at the aperture of the trap. Figure 3(a) shows a cross section of such a vicinity. All the rays converging at $B$ enter the trap, whereas the rays converging at neighboring points $C$ and $D$ do not. In this configuration, only heat from the areas imaged at the holes can enter the trap, leaving behind the heat from other areas.
+Let's consider point $A$ on the mirror surface through which the outskirt of the Guassian beam passes by (not shown in any figure yet). Figure 2 shows at the uppermost slit of the mask its image $B$ created at the aperture of the trap. Figure 3(a) shows a cross section of such a vicinity. All the rays converging at $B$ enter the trap, whereas the rays converging at neighboring points $C$ and $D$ do not. In this configuration, only heat from the areas imaged at the holes can enter the trap, leaving behind the heat from other areas.
 
 
 <p align="center">
